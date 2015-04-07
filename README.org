@@ -1,5 +1,5 @@
-#+ AUTHOR: parasitid@yahoo.fr
-#+ TITLE: GetKong, On Openstack
+#+AUTHOR: parasitid@yahoo.fr
+#+TITLE: GetKong, On Openstack
 * Getting up
   1. Terraform your openstack platform to boot your infra
      1. install terraform
