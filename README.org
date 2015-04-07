@@ -1,0 +1,20 @@
+#+ AUTHOR: parasitid@yahoo.fr
+#+ TITLE: GetKong, On Openstack
+* Getting up
+  1. Terraform your openstack platform to boot your infra
+     1. install terraform
+        #+BEGIN_SRC bash
+        mkdir terraform
+        cd terraform
+        wget https://dl.bintray.com/mitchellh/terraform/terraform_0.4.0_linux_amd64.zip
+        unzip terraform_0.4.0_linux_amd64.zip
+        export PATH=$PATH:$(pwd)
+        #+END_SRC
+        Note: the openstack provider used in the demo hasn't been released yet-
+     2. clone this repository
+     3. boot your infrastructure
+        #+BEGIN_SRC bash
+        terraform plan
+        terraform apply
+        #+END_SRC
+
